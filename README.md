@@ -10,8 +10,7 @@
   A challenge to practice HTML5, CSS3, JavaScript, JSON and API skills.
 
   ### Screenshots
-<img src="./src/projeto-inicial-fetch-github-api/src/images/Screenshot 2024-11-13 at 11.53.24.png">
-
+<img src="src/images/Screenshot 2024-11-13 at 11.53.24.png" alt="screenshot">
 
 ### Links
 
