@@ -6,6 +6,7 @@
   font-weight: 300;
 }
 
+
 img {
   max-width: 100%;
 }
@@ -29,6 +30,9 @@ main {
   margin-bottom: 30px;
   color: #FFFFFF;
 }
+
+
+
 
 .section{
   padding: 70px 0;
@@ -127,9 +131,9 @@ main {
   margin-bottom: 30px;
   text-align: center;
 }
-
 .container .profile-data .repositories ul{
   display: flex;
+
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -142,7 +146,13 @@ main {
   border-radius: 7px;
   transition: 0.3s ease-in-out;
 }
-
+.container .profile-data .repositories ul li span{
+  background-color: #6a5acd;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 5px;
+  color: #fff;
+}
 .container .profile-data .repositories ul li a:hover{
   background-color:hotpink;
   color: #fff
@@ -152,6 +162,17 @@ main {
   display: none;
 }
 
+.events h2{
+  margin-bottom: 30px;
+}
+.events ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.events ul li span{
+  font-weight: 600;
+}
 @media (max-width: 1280px) {
   .container {
     flex-direction: column;
@@ -192,4 +213,8 @@ main {
     width: 100%;
     padding: 0;
   }
+
+
 }
+
+
